@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+#main{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+#title{
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#main p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#img-div{
+    background-color: white;
+    padding: 10px ;
+    margin: 0px;
+    display: block;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#img-caption{
+    display:block;
+    margin: 15px 0px;
+}
+#tribute-info{
+    display: block;
+}
+h3{
+    font-size: 1.17rem;
+    font-weight: bold;
+    display: block;
+}
+#headline{
+    margin: 50px 0;
+    text-align: center;
+}
+ul{
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+li{
+    margin: 15px 0;
+    display: list-item;
+}
+blockquote{
+    display: block;
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+a{
+    color: #477ca7;
+    cursor: pointer;
+}
