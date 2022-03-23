@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom right, #33adff, #7300e6);
+
+}
+#title {
+    font-size: 32px;
+    font-weight:600;
+    padding-top: 5px;
+}
+#description{
+    font-size: 15px;
+}
+.body{
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+    background-color:rgba(0,0,0,0.6);
+    font-size:17px;
+    font-weight: 400px;
+    color: white
+    
+
+}
+#name{
+    width: 500px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+#email{
+    width: 500px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+#number{
+    width: 500px;
+    padding:8px;
+    border-radius: 10px;
+    border: none;
+}
+#dropdown{
+    width: 500px;
+    padding:8px;
+    border-radius: 10px;
+    border: none;
+}
+#comment{
+    width:500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 8px;
+
+}
+#submit{
+    width: 500px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+    border: none;
+    margin-top: 8px;
+}
+#email-label{
+    padding-top: 10px;
+}
+#name-label{
+    padding-top: 10px;
+}
+#number-label{
+    padding-top: 10px;
+}
+#para1{
+    padding-top: 10px;
+}
+#para2{
+    padding-top: 10px;
+}
+#para3{
+    padding-top: 10px;
+}
+@media screen and (max-width:1020px){
+    .body{
+        width: 600px;
+    }
+    #name{
+        width: 500px;
+    }
+    #email{
+        width: 500px;
+    }
+    #number{
+        width: 500px;
+    }
+    #dropdown{
+        width: 500px;
+    }
+    #comment{
+        width: 500px;
+    }
+    #submit{
+        width: 500px;
+    }
+}
+@media screen and (max-width:810px){
+    .body{
+        width: 500px;
+    }
+    #name{
+        width: 400px;
+    }
+    #email{
+        width: 400px;
+    }
+    #number{
+        width: 400px;
+    }
+    #dropdown{
+        width: 400px;
+    }
+    #comment{
+        width: 400px;
+    }
+    #submit{
+        width: 400px;
+    }
+}
+@media screen and (max-width:620px){
+    .body{
+        width: 400px;
+    }
+    #name{
+        width: 300px;
+    }
+    #email{
+        width: 300px;
+    }
+    #number{
+        width: 300px;
+    }
+    #dropdown{
+        width: 300px;
+    }
+    #comment{
+        width: 300px;
+    }
+    #submit{
+        width: 300px;
+    }
+    #title{
+        text-align: center;
+        font-size: 20px;
+    }
+    #description{
+        text-align: center;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .body{
+        width:290;
+    }
+    #name{
+        width: 200px;
+    }
+    #email{
+        width: 200px;
+    }
+    #number{
+        width: 200px;
+    }
+    #dropdown{
+        width: 200px;
+    }
+    #comment{
+        width: 200px;
+    }
+    #submit{
+        width: 200px;
+    }
+    #title{
+        text-align: center;
+        font-size: 20px;
+    }
+    #description{
+        text-align: center;
+        font-size: 10px;
+    }
+}
